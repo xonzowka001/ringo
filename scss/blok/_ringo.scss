@@ -1,0 +1,39 @@
+.run__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+  
+}
+.run{
+text-align: center;
+margin-bottom: 45px;
+margin-top: 25px;
+color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 46px;
+
+}
+
+ 
+.run__img{
+  max-width: 385px;
+margin-right: 59px;
+}
+.run__title{
+  color: rgb(61, 74, 57);
+font-family: Raleway;
+font-size: 24px;
+margin-bottom: 30px;
+}
+.outline{
+  color: rgb(40, 43, 34);
+font-family: Raleway;
+font-size: 24px;
+opacity: 0.5;
+  margin-bottom: 35px;
+}
+
+
+
+

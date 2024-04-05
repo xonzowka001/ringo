@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+.ringo__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ringo__item {
+  max-width: 500px;
+  color: #2e2c2c;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+.ringo__btn {
+  width: 33px;
+  height: 30px;
+  background-image: url(../../img/feather_menu.png);
+  background-repeat: no-repeat;
+  border: none;
+  display: none;
+}
+
+.ringo__img {
+  max-width: 450px;
+}
+
+.ringo__tel {
+  color: rgb(61, 74, 57);
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.ringo__box {
+  margin-right: 25px;
+  align-items: center;
+}
+
+@media screen and (max-width: 820px) {
+  .ringo__item {
+    display: none;
+  }
+  .ringo__btn {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 815px) {
+  .ringo__img {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ringo {
+    display: none;
+  }
+  .ringo__box {
+    display: none;
+  }
+}
+.sit__main {
+  background-image: url(../../img/usta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 585px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.texst {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 18px;
+  margin-bottom: 23px;
+}
+
+.box {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  font-size: 16px;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(174, 123, 60);
+  padding: 22px 56px;
+}
+
+@media screen and (max-width: 1135px) {
+  .sit__main {
+    background-image: url(../../img/usta2.png);
+    height: 545px;
+    background-size: cover;
+  }
+  .title {
+    font-size: 56px;
+  }
+  .texst {
+    font-size: 18px;
+  }
+  .box {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .sit__main {
+    background-image: url(../../img/usta3.png);
+    height: 545px;
+    max-width: 950px;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sit__main {
+    background-image: url(../../img/usta4.png);
+    height: 500px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .title {
+    font-size: 28px;
+  }
+  .texst {
+    font-size: 16px;
+  }
+  .box {
+    font-size: 16px;
+  }
+}
+.run__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+}
+
+.run {
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 25px;
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 46px;
+}
+
+.run__img {
+  max-width: 385px;
+  margin-right: 59px;
+}
+
+.run__title {
+  color: rgb(61, 74, 57);
+  font-family: Raleway;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.outline {
+  color: rgb(40, 43, 34);
+  font-family: Raleway;
+  font-size: 24px;
+  opacity: 0.5;
+  margin-bottom: 35px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,81 @@
+
+.sit__main{
+  background-image: url(../../img/usta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 585px;
+  text-align: center;
+   padding-top: 50px;
+ 
+}
+
+
+
+
+.title{
+  color: rgb(255, 255, 255);
+font-family: Lato;
+font-size: 56px;
+margin-bottom: 20px;
+}
+.texst{
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 18px;
+margin-bottom: 23px;
+}
+.box{
+color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 16px;
+box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+background: rgb(174, 123, 60);
+padding: 22px 56px;
+}
+
+
+
+
+@media screen and (max-width:1135px) {
+  .sit__main{
+    background-image: url(../../img/usta2.png);
+    height: 545px;
+    background-size: cover;
+  }
+.title{
+ font-size: 56px; 
+}
+.texst{
+  font-size: 18px;
+}
+.box{
+  font-size: 16px;
+}
+
+}
+@media screen and (max-width:810px) {
+  .sit__main {
+    background-image: url(../../img/usta3.png);
+    height: 545px;
+    max-width: 950px;
+    background-size: cover;
+  }
+
+}
+@media screen and (max-width:800px) {
+  .sit__main{
+    background-image: url(../../img/usta4.png);
+    height: 500px;
+  }
+}
+@media screen and (max-width:790px) {
+  .title{
+    font-size: 28px;
+  }
+  .texst{
+    font-size: 16px;
+  }
+ .box{
+  font-size: 16px;
+ }
+}
