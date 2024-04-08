@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 700px;
+ 
   
 }
 .run{
@@ -14,11 +14,13 @@ font-family: Raleway;
 font-size: 46px;
 
 }
-
+.run__item{
+  max-width: 1000px;
+}
  
 .run__img{
   max-width: 385px;
-margin-right: 59px;
+gap: 45px;
 }
 .run__title{
   color: rgb(61, 74, 57);
@@ -32,6 +34,75 @@ font-family: Raleway;
 font-size: 24px;
 opacity: 0.5;
   margin-bottom: 35px;
+}
+
+
+@media screen and (max-width:1030px) {
+  .run__item {
+    max-width: 385px;
+  }
+  .run__img {
+  max-width: 235px;
+  }
+  
+
+}
+
+
+@media screen and (max-width:776px) {
+  .run__item {
+max-width: 330px;
+  }
+  .run__img {
+    max-width: 200px;
+  }
+}
+
+
+@media screen and (max-width:712px) {
+  .run__item {
+    max-width: 300px;
+      }
+      .run__img {
+        max-width: 190px;
+      }
+      .run{
+    font-size: 36px;
+      }
+      .outline {
+    font-size: 20px;
+      }
+      .run__title{
+        font-size: 20px;
+      }
+      
+    
+}
+@media screen and (max-width:672px) {
+  .run__item {
+    max-width: 3500px;
+      }
+      .run__img {
+        max-width: 150px;
+        margin-bottom: 30px;
+
+      }
+      .runimgfath{
+        text-align: center;
+
+      }
+      .run__list{
+        flex-direction: column;
+      }
+      .run{
+    font-size: 28px;
+      }
+      .outline {
+    font-size: 20px;
+      }
+      .run__title{
+        font-size: 20px;
+      } 
 }
 
 
